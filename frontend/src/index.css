@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root{
+  --page-bg: #ffffff;
+}
 *{
   padding: 0;
   margin: 0;
@@ -8,7 +11,7 @@
 
 body{
   min-height: 100vh;
-  
+  background-color: var(--page-bg);
 }
 
 a{
