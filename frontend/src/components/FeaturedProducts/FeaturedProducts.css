@@ -103,6 +103,96 @@
     display: none;
 }
 
+.icon-box {
+    position: absolute;
+    bottom: 74px;
+    left: 50%;
+    transform: translate(-50%, 15px);
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    box-shadow: 0 8px 24px rgba(18, 24, 40, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 5;
+}
+
+.featured-product-list-product:hover .icon-box {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, 0);
+}
+
+.icon-btn {
+    position: relative;
+    background: none;
+    border: none;
+    color: #555861;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.icon-btn:hover {
+    color: #2f3a8f;
+    transform: scale(1.1);
+}
+
+
+
+
+.icon-btn::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 145%;
+    left: 50%;
+    transform: translateX(-50%) translateY(6px);
+    background-color: #1a1d24;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 500;
+    white-space: nowrap;
+    padding: 5px 9px;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease;
+    z-index: 10;
+}
+
+
+.icon-btn::after {
+    content: "";
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%) translateY(6px);
+    border-width: 4px;
+    border-style: solid;
+    border-color: #1a1d24 transparent transparent transparent;
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease;
+    z-index: 10;
+}
+
+
+.icon-btn:hover::before,
+.icon-btn:hover::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+
+
 @media (max-width: 768px) {
     .featured-products-menu {
         margin-top: 32px;
@@ -120,5 +210,11 @@
 
     .featured-product-list {
         gap: 18px;
+    }
+
+    .icon-box {
+        bottom: 68px;
+        padding: 8px 14px;
+        gap: 12px;
     }
 }

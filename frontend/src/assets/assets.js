@@ -35,12 +35,14 @@ export const product_list = [
   },
 
   {
-    product_name: "Handcrafted Cotton Batik Saree 24150 – Blue and beige Saree ",
+    product_name:
+      "Handcrafted Cotton Batik Saree 24150 – Blue and beige Saree ",
     product_image: product_3,
   },
 
   {
-    product_name: "Handcrafted Cotton Batik Saree 2490 – Salmon Pink and Dark Olive Green Saree",
+    product_name:
+      "Handcrafted Cotton Batik Saree 2490 – Salmon Pink and Dark Olive Green Saree",
     product_image: product_4,
   },
 
@@ -55,12 +57,14 @@ export const product_list = [
   },
 
   {
-    product_name: "Handcrafted Cotton Batik Saree 2664 – Maroon and Bronze Yellow Saree",
+    product_name:
+      "Handcrafted Cotton Batik Saree 2664 – Maroon and Bronze Yellow Saree",
     product_image: product_7,
   },
 
   {
-    product_name: "Handcrafted Cotton Batik Saree 2663 – Warm Brown and Off White Saree",
+    product_name:
+      "Handcrafted Cotton Batik Saree 2663 – Warm Brown and Off White Saree",
     product_image: product_8,
   },
 ];

@@ -1,6 +1,7 @@
 import React from "react";
 import "./FeaturedProducts.css";
 import { product_list } from "../../assets/assets";
+import { ShoppingCart, Search, Heart } from "lucide-react";
 
 const FeaturedProducts = ({ category, setCategory }) => {
   const handleProductClick = (productName) => {
@@ -29,6 +30,22 @@ const FeaturedProducts = ({ category, setCategory }) => {
                 src={product.product_image}
                 alt=""
               />
+
+              <div className="icon-box">
+                <button className="icon-btn" data-toolpit="Add to cart" onClick={(e) => e.stopPropagation()}>
+                  <ShoppingCart size={18} strokeWidth={1.5}></ShoppingCart>
+                </button>
+
+                <button className="icon-btn" data-toolpit="Quick view" onClick={(e) => e.stopPropagation()}>
+                  <Search size={18} strokeWidth={1.5} />
+                </button>
+
+                <button className="icon-btn" data-toolpit="Add to wishlist" onClick={(e) => e.stopPropagation()}>
+                  <Heart size={18} strokeWidth={1.5}></Heart>
+                </button>
+                
+
+              </div>
               <p>{product.product_name}</p>
             </div>
           );
