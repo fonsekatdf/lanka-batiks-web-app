@@ -13,6 +13,14 @@ import product_5 from "./product_5.png";
 import product_6 from "./product_6.png";
 import product_7 from "./product_7.png";
 import product_8 from "./product_8.png";
+import facebook_icon from "./facebook_icon.png";
+import linkedin_icon from "./linkedin_icon.png";
+import insta_icon from "./insta_icon.png";
+import whatsapp_icon from "./whatsapp_icon.png";
+import mastercard_icon from "./mastercard_icon.png";
+import visa_icon from "./visa_icon.png";
+import paypal_icon from "./paypal_icon.png";
+import american_express_icon from "./american_express_icon.png";
 
 export const asset = {
   logo,
@@ -22,6 +30,14 @@ export const asset = {
   header_img_2,
   header_img_3,
   header_img_4,
+  facebook_icon,
+  linkedin_icon,
+  insta_icon,
+  whatsapp_icon,
+  mastercard_icon,
+  visa_icon,
+  paypal_icon,
+  american_express_icon,
 };
 export const product_list = [
   {
