@@ -1,5 +1,6 @@
 .header {
-    height: 34vw;
+  height: 34vw;
+  min-height: 280px;
     margin: 30px auto;
     position: relative;
     overflow: hidden;
@@ -55,4 +56,43 @@
     to {
         opacity: 1;
     }
+}
+
+@media (max-width: 1050px) {
+  
+  .header-contents {
+    max-width: 55%;
+  }
+
+  .header-contents p {
+    font-size: 1.2vw;
+  }
+}
+
+@media (max-width: 750px) {
+  .header {
+    height: 240px;
+    margin: 20px auto;
+    border-radius: 18px;
+  }
+
+  .header-contents {
+    max-width: 82%;
+    left: 5vw;
+    bottom: 12%;
+    gap: 10px;
+  }
+
+  .header-contents h2 {
+    font-size: 22px;
+    line-height: 1.15;
+  }
+
+  .header-contents p {
+    display: none;
+  }
+
+  .header-contents button {
+    padding: 12px 22px;
+  }
 }
