@@ -184,9 +184,16 @@
 		max-width: 560px;
 	}
 
+	.footer-content-center,
+	.footer-content-right {
+		width: 100%;
+	}
+
 	.footer-bottom-row {
 		grid-template-columns: 1fr;
 		justify-items: start;
+		gap: 12px;
+		padding-top: 14px;
 	}
 
 	.footer-copyright,
@@ -210,19 +217,39 @@
 	.footer-content-center,
 	.footer-content-right {
 		max-width: 100%;
+		align-items: center;
+		text-align: center;
 	}
 
 	.footer-social-icons {
 		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 8px;
+	}
+
+	.footer-content-center ul,
+	.footer-content-right ul {
+		align-items: center;
 	}
 
 	.footer-bottom-row {
 		gap: 14px;
+		padding-top: 8px;
+		justify-items: center;
+	}
+
+	.footer-copyright {
+		font-size: 12px;
+	}
+
+	.footer-payment-icons {
+		justify-content: center;
+		justify-self: center;
 	}
 
 	.footer-payment-icons img {
-		width: 42px;
-		height: 28px;
+		width: 40px;
+		height: 26px;
 	}
 
 	.footer-content-center h2,
