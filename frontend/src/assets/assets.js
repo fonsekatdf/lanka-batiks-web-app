@@ -21,6 +21,8 @@ import mastercard_icon from "./mastercard_icon.png";
 import visa_icon from "./visa_icon.png";
 import paypal_icon from "./paypal_icon.png";
 import american_express_icon from "./american_express_icon.png";
+import play_store from "./play_store.png";
+import app_store from "./app_store.png";
 
 export const asset = {
   logo,
@@ -38,6 +40,8 @@ export const asset = {
   visa_icon,
   paypal_icon,
   american_express_icon,
+  play_store,
+  app_store
 };
 export const product_list = [
   {
