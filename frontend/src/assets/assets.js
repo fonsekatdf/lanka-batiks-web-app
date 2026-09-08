@@ -23,6 +23,7 @@ import paypal_icon from "./paypal_icon.png";
 import american_express_icon from "./american_express_icon.png";
 import play_store from "./play_store.png";
 import app_store from "./app_store.png";
+import cross_icon from "./cross_icon.png";
 
 export const asset = {
   logo,
@@ -41,7 +42,8 @@ export const asset = {
   paypal_icon,
   american_express_icon,
   play_store,
-  app_store
+  app_store,
+  cross_icon,
 };
 export const product_list = [
   {
