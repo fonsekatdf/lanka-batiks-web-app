@@ -1,6 +1,6 @@
 import React from "react";
 import "./FeaturedProducts.css";
-import { product_list } from "../../assets/assets";
+import { menu_list } from "../../assets/assets";
 import { ShoppingCart, Search, Heart } from "lucide-react";
 
 const FeaturedProducts = ({ category, setCategory }) => {
@@ -18,7 +18,7 @@ const FeaturedProducts = ({ category, setCategory }) => {
         selection of authentic, brilliantly crafted masterpieces.
       </p>
       <div className="featured-product-list">
-        {product_list.map((product, index) => {
+        {menu_list.map((product, index) => {
           return (
             <div
               onClick={() => handleProductClick(product.product_name)}

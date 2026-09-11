@@ -6,11 +6,12 @@ import Cart from "./pages/Cart/Cart";
 import Placeorder from "./pages/Placeorder/Placeorder";
 import Footer from "./components/Footer/Footer";
 import LoginPopup from "./components/LoginPopup/LoginPopup";
+import StoreContextProvider from "./Context/StoreContext";
 
 const App = () => {
   const [showLogin, setShowLogin] = useState(false);
   return (
-    <>
+    <StoreContextProvider>
       {showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : <></>}
       <div className="app">
         <NavBar setShowLogin={setShowLogin} />
@@ -21,7 +22,7 @@ const App = () => {
         </Routes>
       </div>
       <Footer />
-    </>
+    </StoreContextProvider>
   );
 };
 
