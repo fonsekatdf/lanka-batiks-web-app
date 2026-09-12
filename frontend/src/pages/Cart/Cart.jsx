@@ -4,7 +4,7 @@ import "./Cart.css";
 
 const Cart = () => {
 
-  const { cartItems, removeFromCart } = useContext(StoreContext);
+  const { cartItems,saree_list, removeFromCart } = useContext(StoreContext);
 
 
   return (
@@ -18,6 +18,18 @@ const Cart = () => {
           <p>Total</p>
           <p>Remove</p>
         </div>
+        <br />
+        <hr />
+        {saree_list.map((item) => {
+          if(cartItems[item._id]>0){
+            return (
+              <div key={item._id} className="cart-items-title cart-items-item">
+                <p>{item.name}</p>
+                <p>{item.description}</p>
+              </div>
+            )
+          }
+        })}
       </div>
       
     </div>

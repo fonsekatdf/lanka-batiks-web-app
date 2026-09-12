@@ -150,66 +150,66 @@ export const menu_list = [
 export const saree_list = [
   {
     _id: "1",
-    name: "Saree 1",
+    name: "Handcrafted Cotton Batik Saree 2055 – Blue and Yellow Saree",
     image: saree_1,
     price: 0,
-    description: "Handcrafted batik saree",
+    description: "A handcrafted cotton batik saree featuring a vibrant blue and yellow design.",
     category: "Saree"
   },
   {
     _id: "2",
-    name: "Saree 2",
+    name: "Handcrafted Cotton Batik Saree 2147 – Blue and Yellow Saree",
     image: saree_2,
     price: 0,
-    description: "Handcrafted batik saree",
+    description: "A handcrafted cotton batik saree with an elegant blue and yellow pattern.",
     category: "Saree"
   },
   {
     _id: "3",
-    name: "Saree 3",
+    name: "Handcrafted Cotton Batik Saree 24150 – Blue and Beige Saree",
     image: saree_3,
     price: 0,
-    description: "Handcrafted batik saree",
+    description: "A handcrafted cotton batik saree combining soft blue and beige tones.",
     category: "Saree"
   },
   {
     _id: "4",
-    name: "Saree 4",
+    name: "Handcrafted Cotton Batik Saree 2490 – Salmon Pink and Dark Olive Green Saree",
     image: saree_4,
     price: 0,
-    description: "Handcrafted batik saree",
+    description: "A handcrafted cotton batik saree with salmon pink and dark olive green accents.",
     category: "Saree"
   },
   {
     _id: "5",
-    name: "Saree 5",
+    name: "Handcrafted Cotton Batik Saree 2180 – Beige and Brown Saree",
     image: saree_5,
     price: 0,
-    description: "Handcrafted batik saree",
+    description: "A handcrafted cotton batik saree styled in warm beige and brown shades.",
     category: "Saree"
   },
   {
     _id: "6",
-    name: "Saree 6",
+    name: "Handcrafted Cotton Batik Saree 2231 – Blue and White Saree",
     image: saree_6,
     price: 0,
-    description: "Handcrafted batik saree",
+    description: "A handcrafted cotton batik saree with a classic blue and white colour palette.",
     category: "Saree"
   },
   {
     _id: "7",
-    name: "Saree 7",
+    name: "Handcrafted Cotton Batik Saree 2664 – Maroon and Bronze Yellow Saree",
     image: saree_7,
     price: 0,
-    description: "Handcrafted batik saree",
+    description: "A handcrafted cotton batik saree featuring rich maroon and bronze yellow details.",
     category: "Saree"
   },
   {
     _id: "8",
-    name: "Saree 8",
+    name: "Handcrafted Cotton Batik Saree 2663 – Warm Brown and Off White Saree",
     image: saree_8,
     price: 0,
-    description: "Handcrafted batik saree",
+    description: "A handcrafted cotton batik saree in warm brown and off-white tones.",
     category: "Saree"
   },
   {

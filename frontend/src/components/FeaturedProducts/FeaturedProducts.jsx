@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./FeaturedProducts.css";
 import { menu_list } from "../../assets/assets";
 import { ShoppingCart, Search, Heart } from "lucide-react";
+import { StoreContext } from "../../Context/StoreContext";
 
 const FeaturedProducts = ({ category, setCategory }) => {
+  const { addToCart, saree_list } = useContext(StoreContext);
+
   const handleProductClick = (productName) => {
     if (!setCategory) return;
 
@@ -32,7 +35,14 @@ const FeaturedProducts = ({ category, setCategory }) => {
               />
 
               <div className="icon-box">
-                <button className="icon-btn" data-toolpit="Add to cart" onClick={(e) => e.stopPropagation()}>
+                <button
+                  className="icon-btn"
+                  data-toolpit="Add to cart"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    addToCart(saree_list[index]?._id);
+                  }}
+                >
                   <ShoppingCart size={18} strokeWidth={1.5}></ShoppingCart>
                 </button>
 
