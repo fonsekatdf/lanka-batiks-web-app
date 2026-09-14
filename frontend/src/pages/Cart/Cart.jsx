@@ -1,11 +1,9 @@
-import React, { useContext } from 'react';
-import { StoreContext } from '../../Context/StoreContext';
+import React, { useContext } from "react";
+import { StoreContext } from "../../Context/StoreContext";
 import "./Cart.css";
 
 const Cart = () => {
-
-  const { cartItems,saree_list, removeFromCart } = useContext(StoreContext);
-
+  const { cartItems, saree_list, removeFromCart } = useContext(StoreContext);
 
   return (
     <div className="cart">
@@ -21,19 +19,28 @@ const Cart = () => {
         <br />
         <hr />
         {saree_list.map((item) => {
-          if(cartItems[item._id]>0){
+          if (cartItems[item._id] > 0) {
             return (
-              <div key={item._id} className="cart-items-title cart-items-item">
-                <p>{item.name}</p>
-                <p>{item.description}</p>
+              <div>
+                <div
+                  key={item._id}
+                  className="cart-items-title cart-items-item"
+                >
+                  <img src={item.image} />
+                  <p>{item.name}</p>
+                  <p>{item.price}</p>
+                  <p>{cartItems[item._id]}</p>
+                  <p>{item.price * cartItems[item._id]}</p>
+                  <p className="cross">x</p>
+                </div>
+                <hr />
               </div>
-            )
+            );
           }
         })}
       </div>
-      
     </div>
   );
-}
+};
 
 export default Cart;
