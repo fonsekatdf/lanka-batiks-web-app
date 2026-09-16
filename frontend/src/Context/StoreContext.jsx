@@ -4,31 +4,29 @@ import { saree_list } from "../assets/assets";
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
-    const [cartItems, setCartItems] = useState({});
+  const [cartItems, setCartItems] = useState({});
 
-    const addToCart = (itemId) => {
-      setCartItems((prev) => ({
-        ...prev,
-        [itemId]: (prev[itemId] || 0) + 1,
-      }));
-    };
+  const addToCart = (itemId) => {
+    setCartItems((prev) => ({
+      ...prev,
+      [itemId]: (prev[itemId] || 0) + 1,
+    }));
+  };
 
-    const removeFromCart = (itemId) => {
-        setCartItems((prev) => ({...prev, [itemId]: prev[itemId] - 1}));
-    };
-    
-    const getTotalCartAmount = () => {
-      let totalAmount = 0;
-      for(const item in cartItems) {
-        if(cartItems[item] > 0) {
-          let itemInfo = saree_list.find((product) => product._id === item);
-          totalAmount += itemInfo.price * cartItems[item];
-        }
+  const removeFromCart = (itemId) => {
+    setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
+  };
+
+  const getTotalCartAmount = () => {
+    let totalAmount = 0;
+    for (const item in cartItems) {
+      if (cartItems[item] > 0) {
+        let itemInfo = saree_list.find((product) => product._id === item);
+        totalAmount += itemInfo.price * cartItems[item];
       }
-      return totalAmount;
-    };
-
-  
+    }
+    return totalAmount;
+  };
 
   const contextValue = {
     saree_list,
@@ -36,7 +34,7 @@ const StoreContextProvider = (props) => {
     setCartItems,
     addToCart,
     removeFromCart,
-    getTotalCartAmount
+    getTotalCartAmount,
   };
   return (
     <StoreContext.Provider value={contextValue}>
@@ -46,4 +44,3 @@ const StoreContextProvider = (props) => {
 };
 
 export default StoreContextProvider;
-
