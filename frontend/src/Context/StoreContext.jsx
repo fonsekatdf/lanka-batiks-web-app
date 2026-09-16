@@ -16,10 +16,19 @@ const StoreContextProvider = (props) => {
     const removeFromCart = (itemId) => {
         setCartItems((prev) => ({...prev, [itemId]: prev[itemId] - 1}));
     };
-    useEffect(() => {
-    console.log(cartItems);
+    
+    const getTotalCartAmount = () => {
+      let totalAmount = 0;
+      for(const item in cartItems) {
+        if(cartItems[item] > 0) {
+          let itemInfo = saree_list.find((product) => product._id === item);
+          totalAmount += itemInfo.price * cartItems[item];
+        }
+      }
+      return totalAmount;
+    };
 
-  }, [cartItems]);
+  
 
   const contextValue = {
     saree_list,
@@ -27,6 +36,7 @@ const StoreContextProvider = (props) => {
     setCartItems,
     addToCart,
     removeFromCart,
+    getTotalCartAmount
   };
   return (
     <StoreContext.Provider value={contextValue}>

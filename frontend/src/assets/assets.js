@@ -152,7 +152,7 @@ export const saree_list = [
     _id: "1",
     name: "Handcrafted Cotton Batik Saree 2055 – Blue and Yellow Saree",
     image: saree_1,
-    price: 0,
+    price: 1890,
     description: "A handcrafted cotton batik saree featuring a vibrant blue and yellow design.",
     category: "Saree"
   },
@@ -160,7 +160,7 @@ export const saree_list = [
     _id: "2",
     name: "Handcrafted Cotton Batik Saree 2147 – Blue and Yellow Saree",
     image: saree_2,
-    price: 0,
+    price: 2250,
     description: "A handcrafted cotton batik saree with an elegant blue and yellow pattern.",
     category: "Saree"
   },
@@ -168,7 +168,7 @@ export const saree_list = [
     _id: "3",
     name: "Handcrafted Cotton Batik Saree 24150 – Blue and Beige Saree",
     image: saree_3,
-    price: 0,
+    price: 2790,
     description: "A handcrafted cotton batik saree combining soft blue and beige tones.",
     category: "Saree"
   },
@@ -176,7 +176,7 @@ export const saree_list = [
     _id: "4",
     name: "Handcrafted Cotton Batik Saree 2490 – Salmon Pink and Dark Olive Green Saree",
     image: saree_4,
-    price: 0,
+    price: 2490,
     description: "A handcrafted cotton batik saree with salmon pink and dark olive green accents.",
     category: "Saree"
   },
@@ -184,7 +184,7 @@ export const saree_list = [
     _id: "5",
     name: "Handcrafted Cotton Batik Saree 2180 – Beige and Brown Saree",
     image: saree_5,
-    price: 0,
+    price: 2150,
     description: "A handcrafted cotton batik saree styled in warm beige and brown shades.",
     category: "Saree"
   },
@@ -192,7 +192,7 @@ export const saree_list = [
     _id: "6",
     name: "Handcrafted Cotton Batik Saree 2231 – Blue and White Saree",
     image: saree_6,
-    price: 0,
+    price: 2650,
     description: "A handcrafted cotton batik saree with a classic blue and white colour palette.",
     category: "Saree"
   },
@@ -200,7 +200,7 @@ export const saree_list = [
     _id: "7",
     name: "Handcrafted Cotton Batik Saree 2664 – Maroon and Bronze Yellow Saree",
     image: saree_7,
-    price: 0,
+    price: 2990,
     description: "A handcrafted cotton batik saree featuring rich maroon and bronze yellow details.",
     category: "Saree"
   },
@@ -208,7 +208,7 @@ export const saree_list = [
     _id: "8",
     name: "Handcrafted Cotton Batik Saree 2663 – Warm Brown and Off White Saree",
     image: saree_8,
-    price: 0,
+    price: 2390,
     description: "A handcrafted cotton batik saree in warm brown and off-white tones.",
     category: "Saree"
   },
@@ -216,7 +216,7 @@ export const saree_list = [
     _id: "9",
     name: "Saree 9",
     image: saree_9,
-    price: 0,
+    price: 1950,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -224,7 +224,7 @@ export const saree_list = [
     _id: "10",
     name: "Saree 10",
     image: saree_10,
-    price: 0,
+    price: 2750,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -232,7 +232,7 @@ export const saree_list = [
     _id: "11",
     name: "Saree 11",
     image: saree_11,
-    price: 0,
+    price: 2190,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -240,7 +240,7 @@ export const saree_list = [
     _id: "12",
     name: "Saree 12",
     image: saree_12,
-    price: 0,
+    price: 2890,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -248,7 +248,7 @@ export const saree_list = [
     _id: "13",
     name: "Saree 13",
     image: saree_13,
-    price: 0,
+    price: 2450,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -256,7 +256,7 @@ export const saree_list = [
     _id: "14",
     name: "Saree 14",
     image: saree_14,
-    price: 0,
+    price: 3150,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -264,7 +264,7 @@ export const saree_list = [
     _id: "15",
     name: "Saree 15",
     image: saree_15,
-    price: 0,
+    price: 2290,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -272,7 +272,7 @@ export const saree_list = [
     _id: "16",
     name: "Saree 16",
     image: saree_16,
-    price: 0,
+    price: 2590,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -280,7 +280,7 @@ export const saree_list = [
     _id: "17",
     name: "Saree 17",
     image: saree_17,
-    price: 0,
+    price: 1990,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -288,7 +288,7 @@ export const saree_list = [
     _id: "18",
     name: "Saree 18",
     image: saree_18,
-    price: 0,
+    price: 3350,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -296,7 +296,7 @@ export const saree_list = [
     _id: "19",
     name: "Saree 19",
     image: saree_19,
-    price: 0,
+    price: 2350,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -304,7 +304,7 @@ export const saree_list = [
     _id: "20",
     name: "Saree 20",
     image: saree_20,
-    price: 0,
+    price: 2690,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -312,7 +312,7 @@ export const saree_list = [
     _id: "21",
     name: "Saree 21",
     image: saree_21,
-    price: 0,
+    price: 3050,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -320,7 +320,7 @@ export const saree_list = [
     _id: "22",
     name: "Saree 22",
     image: saree_22,
-    price: 0,
+    price: 2490,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -328,7 +328,7 @@ export const saree_list = [
     _id: "23",
     name: "Saree 23",
     image: saree_23,
-    price: 0,
+    price: 2850,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -336,7 +336,7 @@ export const saree_list = [
     _id: "24",
     name: "Saree 24",
     image: saree_24,
-    price: 0,
+    price: 2190,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -344,7 +344,7 @@ export const saree_list = [
     _id: "25",
     name: "Saree 25",
     image: saree_25,
-    price: 0,
+    price: 3250,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -352,7 +352,7 @@ export const saree_list = [
     _id: "26",
     name: "Saree 26",
     image: saree_26,
-    price: 0,
+    price: 2390,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -360,7 +360,7 @@ export const saree_list = [
     _id: "27",
     name: "Saree 27",
     image: saree_27,
-    price: 0,
+    price: 2750,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -368,7 +368,7 @@ export const saree_list = [
     _id: "28",
     name: "Saree 28",
     image: saree_28,
-    price: 0,
+    price: 2950,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -376,7 +376,7 @@ export const saree_list = [
     _id: "29",
     name: "Saree 29",
     image: saree_29,
-    price: 0,
+    price: 2090,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -384,7 +384,7 @@ export const saree_list = [
     _id: "30",
     name: "Saree 30",
     image: saree_30,
-    price: 0,
+    price: 3450,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -392,7 +392,7 @@ export const saree_list = [
     _id: "31",
     name: "Saree 31",
     image: saree_31,
-    price: 0,
+    price: 2290,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -400,7 +400,7 @@ export const saree_list = [
     _id: "32",
     name: "Saree 32",
     image: saree_32,
-    price: 0,
+    price: 2650,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -408,7 +408,7 @@ export const saree_list = [
     _id: "33",
     name: "Saree 33",
     image: saree_33,
-    price: 0,
+    price: 3190,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -416,7 +416,7 @@ export const saree_list = [
     _id: "34",
     name: "Saree 34",
     image: saree_34,
-    price: 0,
+    price: 2450,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -424,7 +424,7 @@ export const saree_list = [
     _id: "35",
     name: "Saree 35",
     image: saree_35,
-    price: 0,
+    price: 2890,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -432,7 +432,7 @@ export const saree_list = [
     _id: "36",
     name: "Saree 36",
     image: saree_36,
-    price: 0,
+    price: 2350,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -440,7 +440,7 @@ export const saree_list = [
     _id: "37",
     name: "Saree 37",
     image: saree_37,
-    price: 0,
+    price: 2990,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -448,7 +448,7 @@ export const saree_list = [
     _id: "38",
     name: "Saree 38",
     image: saree_38,
-    price: 0,
+    price: 2550,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -456,7 +456,7 @@ export const saree_list = [
     _id: "39",
     name: "Saree 39",
     image: saree_39,
-    price: 0,
+    price: 2190,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -464,7 +464,7 @@ export const saree_list = [
     _id: "40",
     name: "Saree 40",
     image: saree_40,
-    price: 0,
+    price: 3350,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -472,7 +472,7 @@ export const saree_list = [
     _id: "41",
     name: "Saree 41",
     image: saree_41,
-    price: 0,
+    price: 2490,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -480,7 +480,7 @@ export const saree_list = [
     _id: "42",
     name: "Saree 42",
     image: saree_42,
-    price: 0,
+    price: 2790,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -488,7 +488,7 @@ export const saree_list = [
     _id: "43",
     name: "Saree 43",
     image: saree_43,
-    price: 0,
+    price: 3090,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -496,7 +496,7 @@ export const saree_list = [
     _id: "44",
     name: "Saree 44",
     image: saree_44,
-    price: 0,
+    price: 2290,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -504,7 +504,7 @@ export const saree_list = [
     _id: "45",
     name: "Saree 45",
     image: saree_45,
-    price: 0,
+    price: 2650,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -512,7 +512,7 @@ export const saree_list = [
     _id: "46",
     name: "Saree 46",
     image: saree_46,
-    price: 0,
+    price: 2950,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -520,7 +520,7 @@ export const saree_list = [
     _id: "47",
     name: "Saree 47",
     image: saree_47,
-    price: 0,
+    price: 2390,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -528,7 +528,7 @@ export const saree_list = [
     _id: "48",
     name: "Saree 48",
     image: saree_48,
-    price: 0,
+    price: 3250,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -536,7 +536,7 @@ export const saree_list = [
     _id: "49",
     name: "Saree 49",
     image: saree_49,
-    price: 0,
+    price: 2490,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -544,7 +544,7 @@ export const saree_list = [
     _id: "50",
     name: "Saree 50",
     image: saree_50,
-    price: 0,
+    price: 2850,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -552,7 +552,7 @@ export const saree_list = [
     _id: "51",
     name: "Saree 51",
     image: saree_51,
-    price: 0,
+    price: 2150,
     description: "Handcrafted batik saree",
     category: "Saree"
   },
@@ -560,8 +560,9 @@ export const saree_list = [
     _id: "52",
     name: "Saree 52",
     image: saree_52,
-    price: 0,
+    price: 3050,
     description: "Handcrafted batik saree",
     category: "Saree"
   }
 ];
+
